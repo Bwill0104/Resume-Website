@@ -1,0 +1,188 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    text-decoration: none;
+
+   }
+   
+   /* -------------------------------------------------------------------------------------------------------------------- */
+   section {
+    background: url(city.jpeg) no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+   }
+   /* -------------------------------------------------------------------------------------------------------------------- */
+   .sidebar {
+    box-shadow: 5px 10px 18px #48b08c;
+    border-radius: 10px;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: #242526;
+   }
+   .sidebar h2 {
+    font-family: "Trebuchet MS", sans-serif;
+    color: #dbdbdb;
+    position: relative;
+    bottom: 0;
+    align-items: center;
+   }
+   
+   
+   .sidebar ul a {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 25px;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    color: #dbdbdb;
+    padding-left: 20px;
+    box-sizing: border-box;
+    transition: 0s;
+   }
+   ul li:hover a {
+    text-decoration: underline #48b08c;
+   }
+   /* -------------------------------------------------------------------------------------------------------------------- */
+   .button1 {
+    font-family: "Trebuchet MS", sans-serif;
+    border-style: solid;
+    border-color: #dbdbdb;
+    background-color: #242526;
+    margin-top: 250px;
+    margin-left: 30px;
+    color: #dbdbdb;
+    padding: 10px;
+    padding-left: 51.5px;
+    padding-right: 51.5px;
+   }
+   .button1:hover {
+    background-color: #dbdbdb;
+    border-color: #242526;
+    color: #242526;
+   }
+   .button1:active {
+    transform: translateY(3px);
+   }
+   
+   
+   .button2 {
+    font-family: "Trebuchet MS", sans-serif;
+    border-style: solid;
+    border-color: #dbdbdb;
+    background-color: #242526;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #dbdbdb;
+    padding: 10px;
+    padding-left: 53.5px;
+    padding-right: 53.5px;
+   }
+   .button2:hover {
+    background-color: #dbdbdb;
+    border-color: #242526;
+    color: #242526;
+   }
+   .button2:active {
+    transform: translateY(3px);
+   }
+   /* -------------------------------------------------------------------------------------------------------------------- */
+   .main__section {
+    box-shadow: 5px 10px 18px #48b08c;
+    z-index: +1;
+    color: #dbdbdb;
+    position: fixed;
+    background-color: #242526;
+    top: 10%;
+    left: 25%;
+    bottom: 10%;
+    align-items: center;
+    margin: auto;
+    width: 900px;
+    height: 600px;
+    overflow-y: scroll;
+    flex-direction: column;
+    padding-right: 20px;
+   }
+   
+   
+   .intro2 {
+    margin-top: 10px;
+    margin-left: 45px;
+   }
+   .main__section h1 {
+    margin-top: 80px;
+    margin-left: 30px;
+   }
+   .main__section h4 {
+    margin-top: 35px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #48b08c;
+   }
+   
+   .main__section img {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    height: 300px;
+    width: 200px;
+    float: left;
+   }
+   .main__section p {
+    margin-left: 30px;
+   }
+   .main__section h3 {
+    margin-left: 30px;
+   }
+   hr {
+    color: #48b08c;
+   }
+   
+   
+   .form-group {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+   }
+   .form-group input {
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid #242526;
+   }
+   
+   
+   .submit_button {
+    width: 200px;
+    border-style: solid;
+    border-color: #dbdbdb;
+    background-color: #242526;
+    margin-top: 100px;
+    margin-left: 450px;
+    color: #dbdbdb;
+    padding: 10px;
+    padding-left: 51.5px;
+    padding-right: 51.5px;
+   }
+   .submit_button:hover {
+    background-color: #dbdbdb;
+    border-color: #242526;
+    color: #242526;
+   }
+   .submit_button:active {
+    transform: translateY(3px);
+   }
+   
+   
+
+   /* -------------------------------------------------------------------------------------------------------------------- */
+   
+   
+   
+   
